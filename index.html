@@ -29,6 +29,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="lib/flipdown/flipdown.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -61,7 +62,9 @@
             </li>
             <li class="menu-nav"><a href="#">Committees</a></li>
             <li class="menu-nav"><a href="dates.html">Important Dates</a></li>
-            <li class="menu-nav"><a href="registration.html">Registration</a></li>
+            <li class="menu-nav">
+              <a href="registration.html">Registration</a>
+            </li>
             <li class="menu-nav"><a href="#">Submission</a></li>
           </ul>
         </div>
@@ -155,18 +158,9 @@
     </div>
 
     <div id="countdown-container" class="container-fluid bg-dark text-light">
-      <div id="countdown">
-        <ul class="count-ul d-flex justify-content-center">
-          <li class="px-4"><span id="days" class="me-1"></span>days</li>
-          <li class="px-4"><span id="hours" class="me-1"></span>Hours</li>
-          <li class="px-4"><span id="minutes" class="me-1"></span>Minutes</li>
-          <li class="px-4"><span id="seconds" class="me-1"></span>Seconds</li>
-        </ul>
-      </div>
-      <div id="content" class="emoji">
-        <span>🥳</span>
-        <span>🎉</span>
-        <span>🎂</span>
+      <div class="col-md-12 countdown">
+        <h1>COMING SOON</h1>
+        <div id="flipdown" class="flipdown"></div>
       </div>
     </div>
     <div class="container my-5">
@@ -240,48 +234,60 @@
       crossorigin="anonymous"
     ></script>
     <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="lib/flipdown/flipdown.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
-      (function () {
-        const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
+      var flipdown = new FlipDown(1635382800, {
+        theme: "light",
+      })
+        // Start the countdown
+        .start();
 
-        let birthday = "Oct 28, 2021 00:00:00",
-          countDown = new Date(birthday).getTime(),
-          x = setInterval(function () {
-            let now = new Date().getTime(),
-              distance = countDown - now;
+      ifEnded(() => {
+        console.log("The countdown has ended!");
+      });
+      ver.innerHTML = flipdown.version;
 
-            (document.getElementById("days").innerText = Math.floor(
-              distance / day
-            )),
-              (document.getElementById("hours").innerText = Math.floor(
-                (distance % day) / hour
-              )),
-              (document.getElementById("minutes").innerText = Math.floor(
-                (distance % hour) / minute
-              )),
-              (document.getElementById("seconds").innerText = Math.floor(
-                (distance % minute) / second
-              ));
+      // (function () {
+      //   const second = 1000,
+      //     minute = second * 60,
+      //     hour = minute * 60,
+      //     day = hour * 24;
 
-            //do something later when date is reached
-            if (distance < 0) {
-              let headline = document.getElementById("headline"),
-                countdown = document.getElementById("countdown"),
-                content = document.getElementById("content");
+      //   let birthday = "Oct 28, 2021 00:00:00",
+      //     countDown = new Date(birthday).getTime(),
+      //     x = setInterval(function () {
+      //       let now = new Date().getTime(),
+      //         distance = countDown - now;
 
-              headline.innerText = "It's Today FoITIC 2021!";
-              countdown.style.display = "none";
-              content.style.display = "block";
+      //       (document.getElementById("days").innerText = Math.floor(
+      //         distance / day
+      //       )),
+      //         (document.getElementById("hours").innerText = Math.floor(
+      //           (distance % day) / hour
+      //         )),
+      //         (document.getElementById("minutes").innerText = Math.floor(
+      //           (distance % hour) / minute
+      //         )),
+      //         (document.getElementById("seconds").innerText = Math.floor(
+      //           (distance % minute) / second
+      //         ));
 
-              clearInterval(x);
-            }
-            //seconds
-          }, 0);
-      })();
+      //       //do something later when date is reached
+      //       if (distance < 0) {
+      //         let headline = document.getElementById("headline"),
+      //           countdown = document.getElementById("countdown"),
+      //           content = document.getElementById("content");
+
+      //         headline.innerText = "It's Today FoITIC 2021!";
+      //         countdown.style.display = "none";
+      //         content.style.display = "block";
+
+      //         clearInterval(x);
+      //       }
+      //       //seconds
+      //     }, 0);
+      // })();
     </script>
   </body>
 </html>
