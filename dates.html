@@ -60,7 +60,7 @@
               <a href="call-for-papers.html">Call For Papers</a>
             </li>
             <li class="menu-nav">
-              <a href="call-for-papers.html">Keynote Speakers</a>
+              <a href="speakers.html">Keynote Speakers</a>
             </li>
             <li class="menu-nav"><a href="#section01">Committees</a></li>
             <li class="menu-nav">
@@ -72,27 +72,66 @@
         </div>
       </nav>
     </header>
-    <div class="hero">
-      <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <div class="header-waves">
+      <!--Content before waves-->
+      <div
+        class="
+          inner-header-waves
+          d-flex
+          flex-column
+          justify-content-center
+          text-center
+          mx-auto
+        "
+      >
         <h1 class="display-4 fw-bold">Important Dates</h1>
-        <div class="col-lg-10 mx-auto">
-          <p class="lead mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
-            recusandae blanditiis praesentium alias, ipsam autem maxime
-            doloribus reprehenderit rem provident cum voluptatem itaque
-            voluptatum ipsa quisquam hic debitis repellat expedita! Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Doloremque iure error
-            nostrum harum asperiores, dignissimos minima dolorem explicabo
-            deserunt repellat eos sit earum facilis animi perferendis? Aliquid
-            blanditiis commodi nobis!
-          </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="#dates" class="btn btn-primary btn-lg px-4 me-sm-3">
-              See the timeline of dates
-            </a>
-          </div>
+        <p>Scroll below to see important dates</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a href="#dates" class="btn-scroll btn btn-transparent px-4 me-sm-3">
+            <i class="display-4 fas fa-arrow-alt-circle-down"></i>
+          </a>
         </div>
       </div>
+      <!--Waves Container-->
+      <div class="waves-container">
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
     </div>
 
     <div id="dates">
@@ -173,22 +212,20 @@
 
       <div class="footer-center">
         <div>
-          <i class="fas fa-map-marker"></i>
+          <i class="fa fa-map-marker"></i>
           <p>
-            <span>Jl. PKHH. Mustapa No. 23</span>
-
-            Bandung, Indonesia
+            <span>Jl. PKHH. Mustapa No. 23 Bandung, Indonesia</span>
           </p>
         </div>
 
         <div>
-          <i class="fas fa-envelope"></i>
+          <i class="fa fa-envelope"></i>
           <p>
-            <a href="mailto:support@eduonix.com">foitic.itenas@gmail.com</a>>
+            <a href="mailto:support@eduonix.com">foitic.itenas@gmail.com</a>
           </p>
         </div>
         <div>
-          <i class="fas fa-envelope"></i>
+          <i class="fa fa-envelope"></i>
           <p><a href="mailto:support@eduonix.com">foitic@itenas.ac.id</a></p>
         </div>
       </div>
@@ -199,11 +236,11 @@
           Congress (FoITIC) 2021
         </p>
         <div class="footer-icons">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
         </div>
       </div>
     </footer>

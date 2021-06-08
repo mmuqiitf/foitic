@@ -18,6 +18,18 @@ body {
   font-size: 1rem;
 }
 
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-scroll {
+  color: #fff;
+}
+.btn-scroll:hover {
+  color: #000;
+}
+
 .carousel {
   overflow: hidden;
 }
@@ -376,6 +388,108 @@ li.menu-nav a.active {
   font-size: 32px;
   font-weight: 700;
 }
+
+.header-waves {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  background-color: #f7b42c;
+  background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+
+  color: white;
+}
+.logo {
+  width: 50px;
+  fill: white;
+  padding-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inner-header-waves {
+  height: 70vh;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+/* Animation */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+.waves-container {
+  margin-bottom: 50px;
+}
+
+.team {
+  width: 100%;
+  min-height: 100%;
+  border: 1px solid rgba(133, 133, 133, 0.15);
+  background-color: #fff;
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+.teamimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: top;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+
 li.custom-list {
   font-size: 18px;
   list-style-type: none;
@@ -797,7 +911,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: #e0ac1c;
+  color: #000;
   text-decoration: none;
 }
 
