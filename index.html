@@ -13,7 +13,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+      integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
@@ -60,12 +63,11 @@
             <li class="menu-nav">
               <a href="speakers.html">Keynote Speakers</a>
             </li>
-            <li class="menu-nav"><a href="#">Committees</a></li>
+            <li class="menu-nav"><a href="commitees.html">Committees</a></li>
             <li class="menu-nav"><a href="dates.html">Important Dates</a></li>
             <li class="menu-nav">
               <a href="registration.html">Registration</a>
             </li>
-            <li class="menu-nav"><a href="#">Submission</a></li>
           </ul>
         </div>
       </nav>
@@ -193,20 +195,18 @@
 
       <div class="footer-center">
         <div>
-          <i class="fa fa-map-marker"></i>
-          <p>
-            <span>Jl. PKHH. Mustapa No. 23 Bandung, Indonesia</span>
-          </p>
+          <i class="fas fa-map-marker"></i>
+          <p>Jl. PKHH. Mustapa No. 23 Bandung, Indonesia</p>
         </div>
 
         <div>
-          <i class="fa fa-envelope"></i>
+          <i class="fas fa-envelope"></i>
           <p>
             <a href="mailto:support@eduonix.com">foitic.itenas@gmail.com</a>
           </p>
         </div>
         <div>
-          <i class="fa fa-envelope"></i>
+          <i class="fas fa-envelope"></i>
           <p><a href="mailto:support@eduonix.com">foitic@itenas.ac.id</a></p>
         </div>
       </div>
@@ -217,11 +217,11 @@
           Congress (FoITIC) 2021
         </p>
         <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </footer>
@@ -239,55 +239,12 @@
     <script>
       var flipdown = new FlipDown(1635382800, {
         theme: "light",
-      })
-        // Start the countdown
-        .start();
+      }).start();
 
       ifEnded(() => {
         console.log("The countdown has ended!");
       });
       ver.innerHTML = flipdown.version;
-
-      // (function () {
-      //   const second = 1000,
-      //     minute = second * 60,
-      //     hour = minute * 60,
-      //     day = hour * 24;
-
-      //   let birthday = "Oct 28, 2021 00:00:00",
-      //     countDown = new Date(birthday).getTime(),
-      //     x = setInterval(function () {
-      //       let now = new Date().getTime(),
-      //         distance = countDown - now;
-
-      //       (document.getElementById("days").innerText = Math.floor(
-      //         distance / day
-      //       )),
-      //         (document.getElementById("hours").innerText = Math.floor(
-      //           (distance % day) / hour
-      //         )),
-      //         (document.getElementById("minutes").innerText = Math.floor(
-      //           (distance % hour) / minute
-      //         )),
-      //         (document.getElementById("seconds").innerText = Math.floor(
-      //           (distance % minute) / second
-      //         ));
-
-      //       //do something later when date is reached
-      //       if (distance < 0) {
-      //         let headline = document.getElementById("headline"),
-      //           countdown = document.getElementById("countdown"),
-      //           content = document.getElementById("content");
-
-      //         headline.innerText = "It's Today FoITIC 2021!";
-      //         countdown.style.display = "none";
-      //         content.style.display = "block";
-
-      //         clearInterval(x);
-      //       }
-      //       //seconds
-      //     }, 0);
-      // })();
     </script>
   </body>
 </html>

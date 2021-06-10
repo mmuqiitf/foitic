@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 :root {
   --orange: #f0b446;
+  --red: #fc575e;
   --white: #ffffff;
   --white-opacity: rgba(255, 255, 255, 0.8);
   --black: #000;
@@ -398,6 +399,11 @@ li.menu-nav a.active {
 
   color: white;
 }
+
+.text-red {
+  color: var(--red);
+}
+
 .logo {
   width: 50px;
   fill: white;
@@ -502,6 +508,10 @@ li.custom-list {
   font-size: 18px;
   padding-bottom: 10px;
   list-style-type: none;
+}
+
+.fa-li {
+  font-size: 25px;
 }
 
 .timeline {
@@ -1435,12 +1445,16 @@ footer {
 }
 
 .price-heading {
+  margin-top: 50px;
   text-align: center;
 }
 .price-heading h1 {
   color: #666;
   margin: 0;
-  padding: 0 0 50px 0;
+  padding: 0 0 20px 0;
+}
+.price-heading p {
+  font-size: 20px;
 }
 .demo-button {
   background-color: #333333;
