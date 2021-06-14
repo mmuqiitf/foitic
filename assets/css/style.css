@@ -504,6 +504,17 @@ li.menu-nav a.active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
 }
 
+/* @media (max-width: 768px) {
+  .teamimg {
+    height: 450px;
+  }
+} */
+@media (max-width: 768px) and (min-width: 400px) {
+  .teamimg {
+    height: 450px;
+  }
+}
+
 li.custom-list {
   font-size: 18px;
   padding-bottom: 10px;
