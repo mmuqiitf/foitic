@@ -491,19 +491,14 @@ li.menu-nav a.active {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
-}
-.teamimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: 100%;
-  height: 350px;
-  background-size: cover;
-  background-position: top;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  padding: 15px;
 }
 
+img.team-img {
+  width: 100%;
+  height: 300px;
+  object-position: top;
+}
 /* @media (max-width: 768px) {
   .teamimg {
     height: 450px;
