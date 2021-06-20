@@ -18,6 +18,13 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
+img.img-flyer {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .btn-check:focus + .btn,
 .btn:focus {
@@ -136,7 +143,7 @@ li.menu-nav {
 li.menu-nav a {
   display: block;
   color: var(--orange);
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   text-decoration: none;
   transition: 0.3s ease-in-out;
@@ -145,14 +152,16 @@ li.menu-nav a {
 li.menu-nav a:hover {
   background-color: var(--orange);
   color: var(--white);
-  padding: 10px;
+  padding: 7px;
   border-radius: 10px;
 }
-
+li.menu-nav.dropdown a:hover {
+  background-color: var(--orange);
+}
 li.menu-nav a.active {
   background-color: var(--orange);
   color: var(--white);
-  padding: 10px;
+  padding: 7px;
   border-radius: 10px;
 }
 
@@ -285,12 +294,24 @@ li.menu-nav a.active {
   li.menu-nav a {
     color: var(--white);
   }
-
-  li.menu-nav a:hover {
-    background-color: var(--white);
+  .dropdown-menu.show li a.dropdown-item {
     color: var(--orange);
-    padding: 10px;
-    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 15px;
+  }
+
+  .dropdown-menu.show li a.dropdown-item:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    text-decoration: underline;
+    padding-left: 10px;
+    margin-right: 15px;
+  }
+
+  li.menu-nav a.dropdown-toggle.show:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    padding-left: 10px;
     margin-right: 15px;
   }
   li.menu-nav a.active {

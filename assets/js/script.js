@@ -45,9 +45,9 @@ $(() => {
     $("#menu-toggle").toggleClass("closeMenu");
     $("ul.menu-nav-container").toggleClass("showMenu");
 
-    $("li").on("click", () => {
-      $("ul.menu-nav-container").removeClass("showMenu");
-      $("#menu-toggle").removeClass("closeMenu");
-    });
+    // $("li").on("click", () => {
+    //   $("ul.menu-nav-container").removeClass("showMenu");
+    //   $("#menu-toggle").removeClass("closeMenu");
+    // });
   });
 });
