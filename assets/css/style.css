@@ -473,16 +473,28 @@ li.menu-nav a.active {
   }
 }
 /*Shrinking for mobile*/
+
+.waves-container {
+  margin-bottom: 50px;
+}
+.commitees-name p {
+  margin-bottom: 0px;
+}
+.commitees-from p {
+  margin-bottom: 0px;
+}
+.commitees-from ul li {
+  list-style-type: none;
+}
 @media (max-width: 768px) {
   .waves {
     height: 40px;
     min-height: 40px;
   }
+  .commitees-from p {
+    margin-bottom: 10px;
+  }
 }
-.waves-container {
-  margin-bottom: 50px;
-}
-
 .team {
   width: 100%;
   min-height: 100%;
