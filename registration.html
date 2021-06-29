@@ -1,597 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>
-      FoITIC 2021 - The 3rd Faculty of Industrial Technology International
-      Congress (FoITIC) 2021
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400,700"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
-      integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!-- partial:index.partial.html -->
-    <header>
-      <nav>
-        <div id="brand">
-          <a href="index.html">
-            <img
-              src="assets/images/cropped-Logo-foitic-rev02.png"
-              style="width: 200px; height: auto"
-              alt=""
-            />
-          </a>
-        </div>
-        <div id="menu">
-          <div id="menu-toggle">
-            <div id="menu-icon">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    FoITIC 2021 - The 3rd Faculty of Industrial Technology International
+    Congress (FoITIC) 2021
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/images/cropped-foitic-1-150x150.png" sizes="32x32">
+  <link rel="icon" href="assets/images/cropped-foitic-1-150x150.png" sizes="192x192">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/cropped-foitic-1-150x150.png">
+  <meta content='FoITIC is Faculty of Industrial Technology International Congress 2021
+  (FoITIC 2021), which will be held in October 28-29, 2021. The theme of
+  FoITIC 2021 is "Enriching Engineering Science Through Collaboration of
+  Multidisciplinary Fields".' name='description' />
+  <meta
+    Content='FoITIC 2021, FOITIC ITENAS, FOITIC, FOITIC 2021, ITENAS, Itenas, Institut Teknologi Nasional Bandung, ITENAS Bandung,Faculty of Industrial Technology International Congress'
+    name='keywords' />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400,700" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+    integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <header>
+    <nav>
+      <div id="brand">
+        <a href="index.html">
+          <img src="assets/images/cropped-Logo-foitic-rev02.png" style="width: 200px; height: auto" alt="" />
+        </a>
+      </div>
+      <div id="menu">
+        <div id="menu-toggle">
+          <div id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
           </div>
-          <ul class="menu-nav-container">
-            <li class="menu-nav">
-              <a href="call-for-papers.html">Call For Papers</a>
-            </li>
-            <li class="menu-nav">
-              <a href="speakers.html">Keynote Speakers</a>
-            </li>
-            <li class="menu-nav">
-              <a href="commitees.html">Committees</a>
-            </li>
-            <li class="menu-nav"><a href="dates.html">Important Dates</a></li>
-            <li class="menu-nav">
-              <a class="active" href="registration.html">Registration</a>
-            </li>
-            <li class="menu-nav dropdown">
-              <a
-                class="dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Latest Event
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    target="_blank"
-                    href="https://foitic.itenas.ac.id/foitic2020/"
-                    >FOITIC 2020</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    target="_blank"
-                    href="https://foitic.itenas.ac.id/foitic2017/"
-                    >FOITIC 2017</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
         </div>
-      </nav>
-    </header>
-    <div class="header-waves">
-      <!--Content before waves-->
-      <div
-        class="
+        <ul class="menu-nav-container">
+          <li class="menu-nav">
+            <a href="call-for-papers.html">Call For Papers</a>
+          </li>
+          <li class="menu-nav">
+            <a href="speakers.html">Keynote Speakers</a>
+          </li>
+          <li class="menu-nav">
+            <a href="commitees.html">Committees</a>
+          </li>
+          <li class="menu-nav"><a href="dates.html">Important Dates</a></li>
+          <li class="menu-nav">
+            <a class="active" href="registration.html">Registration</a>
+          </li>
+          <li class="menu-nav dropdown">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Latest Event
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" target="_blank" href="https://foitic.itenas.ac.id/foitic2020/">FOITIC 2020</a>
+              </li>
+              <li>
+                <a class="dropdown-item" target="_blank" href="https://foitic.itenas.ac.id/foitic2017/">FOITIC 2017</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="header-waves">
+    <!--Content before waves-->
+    <div class="
           inner-header-waves
           d-flex
           flex-column
           justify-content-center
           text-center
           mx-auto
-        "
-      >
-        <h1 class="display-4 fw-bold">Registration</h1>
-        <p>Scroll below to see the detail of registration fee</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-sm-center mb-5 mt-3">
-          <a
-            href="https://econference.itenas.ac.id/index.php/foitic2021/foitic2021/user/account"
-            target="_blank"
-            class="btn btn-light text-red fw-bold px-4 py-2 rounded-pill"
-            >Paper Registration</a
-          >
-          <a
-            href="https://forms.gle/TKm7PArzMh5QmUs28"
-            target="_blank"
-            class="btn btn-light text-red fw-bold px-4 py-2 rounded-pill"
-            >Confirmation Form</a
-          >
-          <a
-            href="assets/documents/FoITIC-2021_Full-Paper_Template.docx"
-            target="_blank"
-            class="btn btn-light text-red fw-bold px-4 py-2 rounded-pill"
-            >Paper Template</a
-          >
-        </div>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <a
-            href="#generic_price_table"
-            class="btn-scroll btn btn-transparent px-4 me-sm-3"
-          >
-            <i class="display-4 fas fa-arrow-alt-circle-down"></i>
-          </a>
-        </div>
+        ">
+      <h1 class="display-4 fw-bold">Registration</h1>
+      <p>Scroll below to see the detail of registration fee</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-sm-center mb-5 mt-3">
+        <a href="https://econference.itenas.ac.id/index.php/foitic2021/foitic2021/user/account" target="_blank"
+          class="btn btn-light text-red fw-bold px-4 py-2 rounded-pill">Paper Registration</a>
+        <a href="https://forms.gle/TKm7PArzMh5QmUs28" target="_blank"
+          class="btn btn-light text-red fw-bold px-4 py-2 rounded-pill">Confirmation Form</a>
+        <a href="assets/documents/FoITIC-2021_Full-Paper_Template.docx" target="_blank"
+          class="btn btn-light text-red fw-bold px-4 py-2 rounded-pill">Paper Template</a>
       </div>
-      <!--Waves Container-->
-      <div class="waves-container">
-        <svg
-          class="waves"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          viewBox="0 24 150 28"
-          preserveAspectRatio="none"
-          shape-rendering="auto"
-        >
-          <defs>
-            <path
-              id="gentle-wave"
-              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-            />
-          </defs>
-          <g class="parallax">
-            <use
-              xlink:href="#gentle-wave"
-              x="48"
-              y="0"
-              fill="rgba(255,255,255,0.7"
-            />
-            <use
-              xlink:href="#gentle-wave"
-              x="48"
-              y="3"
-              fill="rgba(255,255,255,0.5)"
-            />
-            <use
-              xlink:href="#gentle-wave"
-              x="48"
-              y="5"
-              fill="rgba(255,255,255,0.3)"
-            />
-            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-          </g>
-        </svg>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="#generic_price_table" class="btn-scroll btn btn-transparent px-4 me-sm-3">
+          <i class="display-4 fas fa-arrow-alt-circle-down"></i>
+        </a>
       </div>
-      <!--Waves end-->
     </div>
-    <div id="generic_price_table">
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <!--PRICE HEADING START-->
-              <div class="price-heading clearfix">
-                <h1>Indonesian</h1>
+    <!--Waves Container-->
+    <div class="waves-container">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--Waves end-->
+  </div>
+  <div id="generic_price_table">
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!--PRICE HEADING START-->
+            <div class="price-heading clearfix">
+              <h1>Indonesian</h1>
+              <p>
+                The registration fee should be paid by
+                <b>October 21, 2021</b>, at the latest.
+              </p>
+            </div>
+            <!--//PRICE HEADING END-->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!--BLOCK ROW START-->
+        <div class="row">
+          <div class="col-md-4">
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Student Presenter </span>
+                  </div>
+                  <!--//HEAD END-->
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">IDR</span>
+                    <span class="currency">250.000 </span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li>Student Presenter</li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix"></div>
+              <!--//BUTTON END-->
+            </div>
+            <!--//PRICE CONTENT END-->
+          </div>
+
+          <div class="col-md-4">
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Non-student</span>
+                  </div>
+                  <!--//HEAD END-->
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">IDR</span>
+                    <span class="currency">750.000</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li>Non-Student Participant</li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix"></div>
+              <!--//BUTTON END-->
+            </div>
+            <!--//PRICE CONTENT END-->
+          </div>
+          <div class="col-md-4">
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Visiting (non author)</span>
+                  </div>
+                  <!--//HEAD END-->
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">IDR</span>
+                    <span class="currency">50.000</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li>Participant (without paper)</li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix"></div>
+              <!--//BUTTON END-->
+            </div>
+            <!--//PRICE CONTENT END-->
+          </div>
+        </div>
+        <!--//BLOCK ROW END-->
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!--PRICE HEADING START-->
+            <div class="price-heading clearfix">
+              <h1>International</h1>
+              <p>
+                The registration fee should be paid by
+                <b>October 21, 2021</b>, at the latest.
+              </p>
+            </div>
+            <!--//PRICE HEADING END-->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!--BLOCK ROW START-->
+        <div class="row">
+          <div class="col-md-4">
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Student Presenter </span>
+                  </div>
+                  <!--//HEAD END-->
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">$</span>
+                    <span class="currency">20</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li>Student Presenter</li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix"></div>
+              <!--//BUTTON END-->
+            </div>
+            <!--//PRICE CONTENT END-->
+          </div>
+
+          <div class="col-md-4">
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Non-student</span>
+                  </div>
+                  <!--//HEAD END-->
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">$</span>
+                    <span class="currency">50</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li>Non-Student Participant</li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix"></div>
+              <!--//BUTTON END-->
+            </div>
+            <!--//PRICE CONTENT END-->
+          </div>
+          <div class="col-md-4">
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Visiting (non author)</span>
+                  </div>
+                  <!--//HEAD END-->
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">$</span>
+                    <span class="currency">15</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li>Participant (without paper)</li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix"></div>
+              <!--//BUTTON END-->
+            </div>
+            <!--//PRICE CONTENT END-->
+          </div>
+        </div>
+        <!--//BLOCK ROW END-->
+      </div>
+      <div class="container mt-5">
+        <div class="card">
+          <div class="card-header">Payment Address</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
                 <p>
-                  The registration fee should be paid by
-                  <b>October 21, 2021</b>, at the latest.
+                  The registration fee can be paid through the BNI Bank
+                  account:
+                </p>
+                <ul class="fa-ul">
+                  <li class="custom-list">
+                    <span class="fa-li"><i class="fas fa-user-circle"></i></span>Bank Account : BNI 46
+                  </li>
+                  <li class="custom-list">
+                    <span class="fa-li"><i class="fas fa-dollar-sign"></i></span>Account Number (USD) : 1046004062
+                  </li>
+                  <li class="custom-list">
+                    <span class="fa-li"><i class="fas fa-id-card"></i></span>Account Name : Lita Lidyawati
+                  </li>
+                  <li class="custom-list">
+                    <span class="fa-li"><i class="fas fa-shield-alt"></i></span>Swift Code: BNINIDJA
+                  </li>
+                  <li class="custom-list">
+                    <span class="fa-li"><i class="fas fa-dollar-sign"></i></span>Account Number (IDR) : 0186388817
+                  </li>
+                  <li class="custom-list">
+                    <span class="fa-li"><i class="fas fa-id-card"></i></span>Account Name : Lita Lidyawati
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  <b>[IMPORTANT]</b> After making the payment, author
+                  <b>MUST</b>
+                  fill in a
+                  <a href="https://forms.gle/TKm7PArzMh5QmUs28" target="_blank">Confirmation Form</a>
+                  and upload the transfer proof by click
+                  <a href="https://forms.gle/TKm7PArzMh5QmUs28" target="_blank">Confirmation Form</a>
+                  in this website (NOT Email). Payment receipt will be sent to
+                  you by email once your payment is confirmed by the committee
+                  (The transferred fee is not refundable)
                 </p>
               </div>
-              <!--//PRICE HEADING END-->
             </div>
           </div>
         </div>
-        <div class="container">
-          <!--BLOCK ROW START-->
-          <div class="row">
-            <div class="col-md-4">
-              <!--PRICE CONTENT START-->
-              <div class="generic_content clearfix">
-                <!--HEAD PRICE DETAIL START-->
-                <div class="generic_head_price clearfix">
-                  <!--HEAD CONTENT START-->
-                  <div class="generic_head_content clearfix">
-                    <!--HEAD START-->
-                    <div class="head_bg"></div>
-                    <div class="head">
-                      <span>Student Presenter </span>
-                    </div>
-                    <!--//HEAD END-->
-                  </div>
-                  <!--//HEAD CONTENT END-->
+      </div>
+    </section>
+  </div>
 
-                  <!--PRICE START-->
-                  <div class="generic_price_tag clearfix">
-                    <span class="price">
-                      <span class="sign">IDR</span>
-                      <span class="currency">250.000 </span>
-                    </span>
-                  </div>
-                  <!--//PRICE END-->
-                </div>
-                <!--//HEAD PRICE DETAIL END-->
+  <footer class="mt-auto footer-distributed">
+    <div class="footer-left">
+      <h3>Organize by</h3>
+      <img src="assets/images/logo-itenas.png" class="my-3" />
 
-                <!--FEATURE LIST START-->
-                <div class="generic_feature_list">
-                  <ul>
-                    <li>Student Presenter</li>
-                  </ul>
-                </div>
-                <!--//FEATURE LIST END-->
-
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix"></div>
-                <!--//BUTTON END-->
-              </div>
-              <!--//PRICE CONTENT END-->
-            </div>
-
-            <div class="col-md-4">
-              <!--PRICE CONTENT START-->
-              <div class="generic_content clearfix">
-                <!--HEAD PRICE DETAIL START-->
-                <div class="generic_head_price clearfix">
-                  <!--HEAD CONTENT START-->
-                  <div class="generic_head_content clearfix">
-                    <!--HEAD START-->
-                    <div class="head_bg"></div>
-                    <div class="head">
-                      <span>Non-student</span>
-                    </div>
-                    <!--//HEAD END-->
-                  </div>
-                  <!--//HEAD CONTENT END-->
-
-                  <!--PRICE START-->
-                  <div class="generic_price_tag clearfix">
-                    <span class="price">
-                      <span class="sign">IDR</span>
-                      <span class="currency">750.000</span>
-                    </span>
-                  </div>
-                  <!--//PRICE END-->
-                </div>
-                <!--//HEAD PRICE DETAIL END-->
-
-                <!--FEATURE LIST START-->
-                <div class="generic_feature_list">
-                  <ul>
-                    <li>Non-Student Participant</li>
-                  </ul>
-                </div>
-                <!--//FEATURE LIST END-->
-
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix"></div>
-                <!--//BUTTON END-->
-              </div>
-              <!--//PRICE CONTENT END-->
-            </div>
-            <div class="col-md-4">
-              <!--PRICE CONTENT START-->
-              <div class="generic_content clearfix">
-                <!--HEAD PRICE DETAIL START-->
-                <div class="generic_head_price clearfix">
-                  <!--HEAD CONTENT START-->
-                  <div class="generic_head_content clearfix">
-                    <!--HEAD START-->
-                    <div class="head_bg"></div>
-                    <div class="head">
-                      <span>Visiting (non author)</span>
-                    </div>
-                    <!--//HEAD END-->
-                  </div>
-                  <!--//HEAD CONTENT END-->
-
-                  <!--PRICE START-->
-                  <div class="generic_price_tag clearfix">
-                    <span class="price">
-                      <span class="sign">IDR</span>
-                      <span class="currency">50.000</span>
-                    </span>
-                  </div>
-                  <!--//PRICE END-->
-                </div>
-                <!--//HEAD PRICE DETAIL END-->
-
-                <!--FEATURE LIST START-->
-                <div class="generic_feature_list">
-                  <ul>
-                    <li>Participant (without paper)</li>
-                  </ul>
-                </div>
-                <!--//FEATURE LIST END-->
-
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix"></div>
-                <!--//BUTTON END-->
-              </div>
-              <!--//PRICE CONTENT END-->
-            </div>
-          </div>
-          <!--//BLOCK ROW END-->
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <!--PRICE HEADING START-->
-              <div class="price-heading clearfix">
-                <h1>International</h1>
-                <p>
-                  The registration fee should be paid by
-                  <b>October 21, 2021</b>, at the latest.
-                </p>
-              </div>
-              <!--//PRICE HEADING END-->
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <!--BLOCK ROW START-->
-          <div class="row">
-            <div class="col-md-4">
-              <!--PRICE CONTENT START-->
-              <div class="generic_content clearfix">
-                <!--HEAD PRICE DETAIL START-->
-                <div class="generic_head_price clearfix">
-                  <!--HEAD CONTENT START-->
-                  <div class="generic_head_content clearfix">
-                    <!--HEAD START-->
-                    <div class="head_bg"></div>
-                    <div class="head">
-                      <span>Student Presenter </span>
-                    </div>
-                    <!--//HEAD END-->
-                  </div>
-                  <!--//HEAD CONTENT END-->
-
-                  <!--PRICE START-->
-                  <div class="generic_price_tag clearfix">
-                    <span class="price">
-                      <span class="sign">$</span>
-                      <span class="currency">20</span>
-                    </span>
-                  </div>
-                  <!--//PRICE END-->
-                </div>
-                <!--//HEAD PRICE DETAIL END-->
-
-                <!--FEATURE LIST START-->
-                <div class="generic_feature_list">
-                  <ul>
-                    <li>Student Presenter</li>
-                  </ul>
-                </div>
-                <!--//FEATURE LIST END-->
-
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix"></div>
-                <!--//BUTTON END-->
-              </div>
-              <!--//PRICE CONTENT END-->
-            </div>
-
-            <div class="col-md-4">
-              <!--PRICE CONTENT START-->
-              <div class="generic_content clearfix">
-                <!--HEAD PRICE DETAIL START-->
-                <div class="generic_head_price clearfix">
-                  <!--HEAD CONTENT START-->
-                  <div class="generic_head_content clearfix">
-                    <!--HEAD START-->
-                    <div class="head_bg"></div>
-                    <div class="head">
-                      <span>Non-student</span>
-                    </div>
-                    <!--//HEAD END-->
-                  </div>
-                  <!--//HEAD CONTENT END-->
-
-                  <!--PRICE START-->
-                  <div class="generic_price_tag clearfix">
-                    <span class="price">
-                      <span class="sign">$</span>
-                      <span class="currency">50</span>
-                    </span>
-                  </div>
-                  <!--//PRICE END-->
-                </div>
-                <!--//HEAD PRICE DETAIL END-->
-
-                <!--FEATURE LIST START-->
-                <div class="generic_feature_list">
-                  <ul>
-                    <li>Non-Student Participant</li>
-                  </ul>
-                </div>
-                <!--//FEATURE LIST END-->
-
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix"></div>
-                <!--//BUTTON END-->
-              </div>
-              <!--//PRICE CONTENT END-->
-            </div>
-            <div class="col-md-4">
-              <!--PRICE CONTENT START-->
-              <div class="generic_content clearfix">
-                <!--HEAD PRICE DETAIL START-->
-                <div class="generic_head_price clearfix">
-                  <!--HEAD CONTENT START-->
-                  <div class="generic_head_content clearfix">
-                    <!--HEAD START-->
-                    <div class="head_bg"></div>
-                    <div class="head">
-                      <span>Visiting (non author)</span>
-                    </div>
-                    <!--//HEAD END-->
-                  </div>
-                  <!--//HEAD CONTENT END-->
-
-                  <!--PRICE START-->
-                  <div class="generic_price_tag clearfix">
-                    <span class="price">
-                      <span class="sign">$</span>
-                      <span class="currency">15</span>
-                    </span>
-                  </div>
-                  <!--//PRICE END-->
-                </div>
-                <!--//HEAD PRICE DETAIL END-->
-
-                <!--FEATURE LIST START-->
-                <div class="generic_feature_list">
-                  <ul>
-                    <li>Participant (without paper)</li>
-                  </ul>
-                </div>
-                <!--//FEATURE LIST END-->
-
-                <!--BUTTON START-->
-                <div class="generic_price_btn clearfix"></div>
-                <!--//BUTTON END-->
-              </div>
-              <!--//PRICE CONTENT END-->
-            </div>
-          </div>
-          <!--//BLOCK ROW END-->
-        </div>
-        <div class="container mt-5">
-          <div class="card">
-            <div class="card-header">Payment Address</div>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">
-                  <p>
-                    The registration fee can be paid through the BNI Bank
-                    account:
-                  </p>
-                  <ul class="fa-ul">
-                    <li class="custom-list">
-                      <span class="fa-li"
-                        ><i class="fas fa-user-circle"></i></span
-                      >Bank Account : BNI 46
-                    </li>
-                    <li class="custom-list">
-                      <span class="fa-li"
-                        ><i class="fas fa-dollar-sign"></i></span
-                      >Account Number (USD) : 1046004062
-                    </li>
-                    <li class="custom-list">
-                      <span class="fa-li"><i class="fas fa-id-card"></i></span
-                      >Account Name : Lita Lidyawati
-                    </li>
-                    <li class="custom-list">
-                      <span class="fa-li"
-                        ><i class="fas fa-shield-alt"></i></span
-                      >Swift Code: BNINIDJA
-                    </li>
-                    <li class="custom-list">
-                      <span class="fa-li"
-                        ><i class="fas fa-dollar-sign"></i></span
-                      >Account Number (IDR) : 0186388817
-                    </li>
-                    <li class="custom-list">
-                      <span class="fa-li"><i class="fas fa-id-card"></i></span
-                      >Account Name : Lita Lidyawati
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
-                  <p>
-                    <b>[IMPORTANT]</b> After making the payment, author
-                    <b>MUST</b>
-                    fill in a
-                    <a
-                      href="https://forms.gle/TKm7PArzMh5QmUs28"
-                      target="_blank"
-                      >Confirmation Form</a
-                    >
-                    and upload the transfer proof by click
-                    <a
-                      href="https://forms.gle/TKm7PArzMh5QmUs28"
-                      target="_blank"
-                      >Confirmation Form</a
-                    >
-                    in this website (NOT Email). Payment receipt will be sent to
-                    you by email once your payment is confirmed by the committee
-                    (The transferred fee is not refundable)
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p class="footer-company-name">© 2021 FoITIC Itenas</p>
     </div>
 
-    <footer class="mt-auto footer-distributed">
-      <div class="footer-left">
-        <h3>Organize by</h3>
-        <img src="assets/images/logo-itenas.png" class="my-3" />
-
-        <p class="footer-company-name">© 2021 FoITIC Itenas</p>
+    <div class="footer-center">
+      <div>
+        <i class="fas fa-map-marker"></i>
+        <p>Jl. PKHH. Mustapa No. 23 Bandung, Indonesia</p>
       </div>
-
-      <div class="footer-center">
-        <div>
-          <i class="fas fa-map-marker"></i>
-          <p>Jl. PKHH. Mustapa No. 23 Bandung, Indonesia</p>
-        </div>
-        <div>
-          <i class="fas fa-envelope"></i>
-          <p><a href="mailto:support@eduonix.com">foitic@itenas.ac.id</a></p>
-        </div>
+      <div>
+        <i class="fas fa-envelope"></i>
+        <p><a href="mailto:support@eduonix.com">foitic@itenas.ac.id</a></p>
       </div>
-      <div class="footer-right">
-        <p class="footer-company-about">
-          <span>About FoITIC 2021</span>
-          FoITIC 2021 - The 3rd Faculty of Industrial Technology International
-          Congress (FoITIC) 2021
-        </p>
-        <div class="footer-icons">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About FoITIC 2021</span>
+        FoITIC 2021 - The 3rd Faculty of Industrial Technology International
+        Congress (FoITIC) 2021
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- partial -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
+  <!-- partial -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
