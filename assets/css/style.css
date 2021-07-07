@@ -608,6 +608,12 @@ li.custom-list {
   list-style-type: none;
 }
 
+li.paper-list{
+  font-size: 1rem;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
 .fa-li {
   font-size: 25px;
 }
