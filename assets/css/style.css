@@ -692,7 +692,7 @@ li.paper-list {
 
 .timeline {
   position: relative;
-  width: 660px;
+  width: 850px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 1em 0;
@@ -757,14 +757,14 @@ li.paper-list {
 
 .direction-l {
   position: relative;
-  width: 300px;
+  width: 395px;
   float: left;
   text-align: right;
 }
 
 .direction-r {
   position: relative;
-  width: 300px;
+  width: 395px;
   float: right;
 }
 
@@ -990,9 +990,7 @@ li.paper-list {
 }
 
 /* The footer is fixed to the bottom of the page */
-
 footer {
-  position: fixed;
   bottom: 0;
 }
 
