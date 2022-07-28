@@ -1584,3 +1584,24 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+
+.title-proceeding{
+  font-size: 48px;
+}
+.title-cover{
+  line-height: 8pt;
+}
+.title-point{
+  font-size: 20px;
+}
+.title-editor{
+  font-size: 48px;
+}
+.title-name{
+  line-height: 0pt;
+  font-size: 12px;
+}
+.link-content{
+  color: #000;
+  text-decoration: none;
+}
