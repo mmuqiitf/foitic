@@ -1,0 +1,460 @@
+[
+	{
+		"id": "1",
+		"name": "Dr. Jono Suhartono",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Chairman"
+	},
+	{
+		"id": "2",
+		"name": "Dr.Ing. Mohammad Alexin Putra",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Co-Chairman"
+	},
+	{
+		"id": "3",
+		"name": "Dr. Fahmi Arif",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Co-Chairman"
+	},
+	{
+		"id": "4",
+		"name": "Dr. Jasman Pardede",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Co-Chairman"
+	},
+	{
+		"id": "5",
+		"name": "Ms. Nuha Desi Anggraeni",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "6",
+		"name": "Mr. Liman Hartawan",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "7",
+		"name": "Ms. Youllia Indrawati",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "8",
+		"name": "Mr. Febrian Hadiatna",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "9",
+		"name": "Ms. Noviyanti Nugraha",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "10",
+		"name": "Ms. Lita Lidyawati",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "11",
+		"name": "Ms. Arie Desrianty",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "12",
+		"name": "Mr. Iwan Agustiawan",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "13",
+		"name": "Mr. Rispianda",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "14",
+		"name": "Ms. Lauditta Irianti",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "15",
+		"name": "Ms. Vibianti Dwi Pratiwi",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "16",
+		"name": "Ms. Irma Amelia",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "17",
+		"name": "Ms. Sofia Umaroh",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Members"
+	},
+	{
+		"id": "18",
+		"name": "Prof. Dr. Meilinda Nurbanasari",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "19",
+		"name": "Dr. Tarsisius Kristayadi",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "20",
+		"name": "Mr. Abinhot Sihotang",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "21",
+		"name": "Dr. Dani Rusirawan",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "22",
+		"name": "Prof. Dr. Soegijardjo Soegijoko",
+		"program": "",
+		"affiliations": [
+			"Itenas Bandung - Indonesia",
+			"IEEE Indonesia SSIT Chapter"
+		],
+		"position": "Advisory"
+	},
+	{
+		"id": "23",
+		"name": "Prof. Dr. Isa Setiasah Toha",
+		"program": "",
+		"affiliations": "ITB - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "24",
+		"name": "Dr. Kusmaningrum Soemadi",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "25",
+		"name": "Dr. Iwan Inrawan Wiratmadja",
+		"program": "",
+		"affiliations": "ITB - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "26",
+		"name": "Dr. Ahmad Taufik Joenoes",
+		"program": "",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "Advisory"
+	},
+	{
+		"id": "27",
+		"name": "Dr. Hendi Hendian Rachmat",
+		"program": "Electrical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "28",
+		"name": "Dr. Waluyo",
+		"program": "Electrical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "29",
+		"name": "Dr. Niken Syafitri",
+		"program": "Electrical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "30",
+		"name": "Dr. Marisa Widyastuti P.",
+		"program": "Electrical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "31",
+		"name": "Dr. Tarsisius Kristyadi",
+		"program": "Mechanical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "32",
+		"name": "Dr. Agus Hermanto",
+		"program": "Mechanical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "33",
+		"name": "Dr. Ing. M. Alexin Putra",
+		"program": "Mechanical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "34",
+		"name": "Dr. Dwi Kurniawan",
+		"program": "Industrial Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "35",
+		"name": "Dr. Arif Imran",
+		"program": "Industrial Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "36",
+		"name": "Dr. Caecilia Sri Wahyuning",
+		"program": "Industrial Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "37",
+		"name": "Dr. Yudha Prambudia",
+		"program": "Industrial Engineering",
+		"affiliations": "Telkom University - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "38",
+		"name": "Dr. Winnie Septiani",
+		"program": "Industrial Engineering",
+		"affiliations": "Trisakti University - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "39",
+		"name": "Dr. Jono Suhartono",
+		"program": "Chemical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "40",
+		"name": "Dr. Maya Ramadianti M.",
+		"program": "Chemical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "41",
+		"name": "Dr. rer. Nat. Riny Y. Parapat",
+		"program": "Chemical Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "42",
+		"name": "Dr. Winarno Sugeng",
+		"program": "Informatics Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "43",
+		"name": "Dr. Uung Ungkawa",
+		"program": "Informatics Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "44",
+		"name": "Dr. Lisa Kristiana",
+		"program": "Informatics Engineering",
+		"affiliations": "Itenas Bandung - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "45",
+		"name": "Dr. Achmad Ghazali",
+		"program": "School of Business and Management",
+		"affiliations": "ITB - Indonesia",
+		"position": "National Scientific"
+	},
+	{
+		"id": "46",
+		"name": "Prof. István Farkas (Chairman)",
+		"program": "",
+		"affiliations": "Hungarian University of Agriculture and Life Sciences - Hungary",
+		"position": "International Scientific"
+	},
+	{
+		"id": "47",
+		"name": "Prof. István Seres",
+		"program": "",
+		"affiliations": "Hungarian University of Agriculture and Life Sciences - Hungary",
+		"position": "International Scientific"
+	},
+	{
+		"id": "48",
+		"name": "Prof. Józef Horabik",
+		"program": "",
+		"affiliations": "Polish of Academy of Sciences - Poland",
+		"position": "International Scientific"
+	},
+	{
+		"id": "49",
+		"name": "Prof. Zuzana Hlaváčová",
+		"program": "",
+		"affiliations": "Slovak University of Agriculture in Nitra - Slovak Republic",
+		"position": "International Scientific"
+	},
+	{
+		"id": "50",
+		"name": "Prof. Dr. Rizalman Mamat",
+		"program": "",
+		"affiliations": "University Malaysia Pahang - Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "51",
+		"name": "Dr. Husnul Azan Bin Tajarudin",
+		"program": "",
+		"affiliations": "Universiti Sains Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "52",
+		"name": "Dr. Hasan Al Abdulgader",
+		"program": "",
+		"affiliations": "Saudi Aramco",
+		"position": "International Scientific"
+	},
+	{
+		"id": "53",
+		"name": "Prof. Ing. CSc. Martin Libra",
+		"program": "",
+		"affiliations": "Czech University of Life Sciences Prague - Czech Republic",
+		"position": "International Scientific"
+	},
+	{
+		"id": "54",
+		"name": "Prof. RNDr. Ing. Jiri Blahovec, DrSc.",
+		"program": "",
+		"affiliations": "Czech University of Life Sciences Prague - Czech Republic",
+		"position": "International Scientific"
+	},
+	{
+		"id": "55",
+		"name": "Prof. Dr.-Ing. Klaus Günter Gottschalk",
+		"program": "",
+		"affiliations": "Leibniz Institute for Agricultural Engineering and Bioeconomy - Germany",
+		"position": "International Scientific"
+	},
+	{
+		"id": "56",
+		"name": "Doc. Ing. Jan Banout, Ph.D.",
+		"program": "",
+		"affiliations": "Czech University of Life Sciences Prague - Czech Republic",
+		"position": "International Scientific"
+	},
+	{
+		"id": "57",
+		"name": "Doc. RNDr. Vlasta Vozárová, PhD.",
+		"program": "",
+		"affiliations": "Slovak University of Agriculture in Nitra - Slovak Republic",
+		"position": "International Scientific"
+	},
+	{
+		"id": "58",
+		"name": "Dr. Januar Parlaungan Siregar",
+		"program": "",
+		"affiliations": "Universiti Malaysia Pahang - Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "59",
+		"name": "Dr. Agus Saptoro",
+		"program": "",
+		"affiliations": "Curtin University - Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "60",
+		"name": "Dr. Martino Luis",
+		"program": "",
+		"affiliations": "The University of Exeter - UK",
+		"position": "International Scientific"
+	},
+	{
+		"id": "61",
+		"name": "Dr. Chandra Ade Irawan",
+		"program": "",
+		"affiliations": "University of Nottingham Ningbo - China",
+		"position": "International Scientific"
+	},
+	{
+		"id": "62",
+		"name": "Ts. Gs. Dr. Othman Mohd",
+		"program": "",
+		"affiliations": "Universiti Teknikal Malaysia Melaka - Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "63",
+		"name": "PM. Ts. Dr. Mohd Faizal Abdollah",
+		"program": "",
+		"affiliations": "Universiti Teknikal Malaysia Melaka - Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "64",
+		"name": "Ts. Dr. Mohd Zaki Mas’ud",
+		"program": "",
+		"affiliations": "Universiti Teknikal Malaysia Melaka - Malaysia",
+		"position": "International Scientific"
+	},
+	{
+		"id": "65",
+		"name": "Ts. Dr. Yahaya Abd Rahim",
+		"program": "",
+		"affiliations": "Universiti Teknikal Malaysia Melaka - Malaysia",
+		"position": "International Scientific"
+	}
+]
