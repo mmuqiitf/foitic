@@ -4,6 +4,7 @@ const nextConfig = {
 	images: {
 		domains: ["via.placeholder.com"],
 	},
+	basePath: "/foitic2023",
 };
 
 module.exports = nextConfig;
