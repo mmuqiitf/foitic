@@ -36,7 +36,7 @@
   <header>
     <nav>
       <div id="brand">
-        <a href="index.html">
+        <a href="/">
           <img src="assets/images/cropped-Logo-foitic-rev02.png" style="width: 200px; height: auto" alt="" />
         </a>
       </div>
@@ -50,7 +50,7 @@
         </div>
         <ul class="menu-nav-container">
           <li class="menu-nav">
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
           </li>
           <li class="menu-nav">
             <a href="call-for-papers.html">Call For Papers</a>
